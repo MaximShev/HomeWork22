@@ -18,7 +18,7 @@ public class OrderConroller {
     }
 
     @GetMapping("/add")
-    public List<Integer> addItems(@RequestParam List <Integer> ids) {
+    public List<Integer> addItems(@RequestParam List<Integer> ids) {
         return orderService.addItems(ids);
     }
 
